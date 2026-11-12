@@ -1,0 +1,8 @@
+attribute,level,type,coding,clinical_rationale,finalized
+administration,Oral,categorical,dummy,"Matches daily oral PrEP (e.g., TDF/FTC or TAF/FTC). Clinically paired with Daily frequency only in real regimens.",FALSE
+administration,Injection,categorical,dummy,"Matches long-acting injectable PrEP (cabotegravir monthly or lenacapavir every 6 months). Not clinically paired with Daily.",FALSE
+frequency,Daily,categorical,dummy,"Clinically appropriate for oral PrEP. Not appropriate for injectable PrEP.",FALSE
+frequency,Monthly,categorical,dummy,"Clinically appropriate for injectable cabotegravir-like PrEP. Not a standard oral PrEP schedule.",FALSE
+frequency,Every 6 months,categorical,dummy,"Clinically appropriate for injectable lenacapavir-like PrEP. Not an oral dosing schedule.",FALSE
+cost,$0,categorical,dummy,"Illustrative out-of-pocket cost stand-in for insurance/reimbursement; not a protocol-final attribute.",FALSE
+cost,$30,categorical,dummy,"Illustrative out-of-pocket cost stand-in for insurance/reimbursement; not a protocol-final attribute.",FALSE

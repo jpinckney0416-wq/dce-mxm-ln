@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PrEP DCE Mathematical Demo (NOT a clinical survey)</title>
+<style>
+body{font-family:Georgia,serif;max-width:880px;margin:2rem auto;padding:0 1rem;line-height:1.45;color:#1a1a1a;background:#f7f4ef;}
+h1{font-size:1.6rem;margin-bottom:0.25rem;}
+.banner{background:#5c1a1a;color:#fff;padding:0.75rem 1rem;border-radius:4px;margin:1rem 0 1.5rem;}
+.banner strong{display:block;font-size:1.05rem;}
+.q{margin:1.5rem 0;padding:1rem;border:1px solid #cfc7b8;background:#fff;}
+table{width:100%;border-collapse:collapse;margin:0.75rem 0;}
+th,td{border:1px solid #bbb;padding:0.5rem 0.65rem;text-align:left;}
+th{background:#eee8dc;}
+label.choice{display:inline-block;margin-right:1.25rem;cursor:pointer;}
+.note{font-size:0.9rem;color:#444;}
+</style>
+</head>
+<body>
+<h1>ED PrEP Discrete Choice Experiment — Mathematical Demo</h1>
+<div class="banner"><strong>NOT a clinically validated patient survey.</strong>
+This instrument uses an <em>unrestricted mathematical design</em> that may include clinically implausible PrEP combinations 
+(e.g., oral every 6 months; injectable daily). It demonstrates DCE design principles only. 
+Do not administer to patients. No preference weights or patient findings are implied.</div>
+<p class="note">Illustrative attributes: administration method, medication frequency, out-of-pocket cost. 
+Select Alternative A or B for each question. Responses are not stored (no backend).</p>
+<div class="q" id="q1">
+<h2>Question 1 of 10</h2>
+<p>If these were the only two PrEP options, which would you prefer?</p>
+<table>
+<thead><tr><th>Attribute</th><th>Alternative A</th><th>Alternative B</th></tr></thead>
+<tbody>
+<tr><td>Administration method</td><td>Oral <em>(clinically implausible combo)</em></td><td>Injection</td></tr>
+<tr><td>Medication frequency</td><td>Monthly</td><td>Every 6 months</td></tr>
+<tr><td>Out-of-pocket cost</td><td>$0</td><td>$30</td></tr>
+</tbody></table>
+<label class="choice"><input type="radio" name="q1" value="A"/> Alternative A</label>
+<label class="choice"><input type="radio" name="q1" value="B"/> Alternative B</label>
+</div>
+<div class="q" id="q2">
+<h2>Question 2 of 10</h2>
+<p>If these were the only two PrEP options, which would you prefer?</p>
+<table>
+<thead><tr><th>Attribute</th><th>Alternative A</th><th>Alternative B</th></tr></thead>
+<tbody>
+<tr><td>Administration method</td><td>Injection <em>(clinically implausible combo)</em></td><td>Oral <em>(clinically implausible combo)</em></td></tr>
+<tr><td>Medication frequency</td><td>Daily</td><td>Monthly</td></tr>
+<tr><td>Out-of-pocket cost</td><td>$30</td><td>$0</td></tr>
+</tbody></table>
+<label class="choice"><input type="radio" name="q2" value="A"/> Alternative A</label>
+<label class="choice"><input type="radio" name="q2" value="B"/> Alternative B</label>
+</div>
+<div class="q" id="q3">
+<h2>Question 3 of 10</h2>
+<p>If these were the only two PrEP options, which would you prefer?</p>
+<table>
+<thead><tr><th>Attribute</th><th>Alternative A</th><th>Alternative B</th></tr></thead>
+<tbody>
+<tr><td>Administration method</td><td>Injection</td><td>Oral <em>(clinically implausible combo)</em></td></tr>
+<tr><td>Medication frequency</td><td>Every 6 months</td><td>Monthly</td></tr>
+<tr><td>Out-of-pocket cost</td><td>$0</td><td>$30</td></tr>
+</tbody></table>
+<label class="choice"><input type="radio" name="q3" value="A"/> Alternative A</label>
+<label class="choice"><input type="radio" name="q3" value="B"/> Alternative B</label>
+</div>
+<div class="q" id="q4">
+<h2>Question 4 of 10</h2>
+<p>If these were the only two PrEP options, which would you prefer?</p>
+<table>
+<thead><tr><th>Attribute</th><th>Alternative A</th><th>Alternative B</th></tr></thead>
+<tbody>
+<tr><td>Administration method</td><td>Oral</td><td>Injection</td></tr>
+<tr><td>Medication frequency</td><td>Daily</td><td>Every 6 months</td></tr>
+<tr><td>Out-of-pocket cost</td><td>$0</td><td>$30</td></tr>
+</tbody></table>
+<label class="choice"><input type="radio" name="q4" value="A"/> Alternative A</label>
+<label class="choice"><input type="radio" name="q4" value="B"/> Alternative B</label>
+</div>
+<div class="q" id="q5">
+<h2>Question 5 of 10</h2>
+<p>If these were the only two PrEP options, which would you prefer?</p>
+<table>
+<thead><tr><th>Attribute</th><th>Alternative A</th><th>Alternative B</th></tr></thead>
+<tbody>
+<tr><td>Administration method</td><td>Injection</td><td>Oral</td></tr>
+<tr><td>Medication frequency</td><td>Every 6 months</td><td>Daily</td></tr>
+<tr><td>Out-of-pocket cost</td><td>$0</td><td>$30</td></tr>
+</tbody></table>
+<label class="choice"><input type="radio" name="q5" value="A"/> Alternative A</label>
+<label class="choice"><input type="radio" name="q5" value="B"/> Alternative B</label>
+</div>
+<div class="q" id="q6">
+<h2>Question 6 of 10</h2>
+<p>If these were the only two PrEP options, which would you prefer?</p>
+<table>
+<thead><tr><th>Attribute</th><th>Alternative A</th><th>Alternative B</th></tr></thead>
+<tbody>
+<tr><td>Administration method</td><td>Injection <em>(clinically implausible combo)</em></td><td>Oral <em>(clinically implausible combo)</em></td></tr>
+<tr><td>Medication frequency</td><td>Daily</td><td>Every 6 months</td></tr>
+<tr><td>Out-of-pocket cost</td><td>$0</td><td>$30</td></tr>
+</tbody></table>
+<label class="choice"><input type="radio" name="q6" value="A"/> Alternative A</label>
+<label class="choice"><input type="radio" name="q6" value="B"/> Alternative B</label>
+</div>
+<div class="q" id="q7">
+<h2>Question 7 of 10</h2>
+<p>If these were the only two PrEP options, which would you prefer?</p>
+<table>
+<thead><tr><th>Attribute</th><th>Alternative A</th><th>Alternative B</th></tr></thead>
+<tbody>
+<tr><td>Administration method</td><td>Injection</td><td>Oral <em>(clinically implausible combo)</em></td></tr>
+<tr><td>Medication frequency</td><td>Monthly</td><td>Every 6 months</td></tr>
+<tr><td>Out-of-pocket cost</td><td>$30</td><td>$0</td></tr>
+</tbody></table>
+<label class="choice"><input type="radio" name="q7" value="A"/> Alternative A</label>
+<label class="choice"><input type="radio" name="q7" value="B"/> Alternative B</label>
+</div>
+<div class="q" id="q8">
+<h2>Question 8 of 10</h2>
+<p>If these were the only two PrEP options, which would you prefer?</p>
+<table>
+<thead><tr><th>Attribute</th><th>Alternative A</th><th>Alternative B</th></tr></thead>
+<tbody>
+<tr><td>Administration method</td><td>Injection <em>(clinically implausible combo)</em></td><td>Oral <em>(clinically implausible combo)</em></td></tr>
+<tr><td>Medication frequency</td><td>Daily</td><td>Every 6 months</td></tr>
+<tr><td>Out-of-pocket cost</td><td>$30</td><td>$0</td></tr>
+</tbody></table>
+<label class="choice"><input type="radio" name="q8" value="A"/> Alternative A</label>
+<label class="choice"><input type="radio" name="q8" value="B"/> Alternative B</label>
+</div>
+<div class="q" id="q9">
+<h2>Question 9 of 10</h2>
+<p>If these were the only two PrEP options, which would you prefer?</p>
+<table>
+<thead><tr><th>Attribute</th><th>Alternative A</th><th>Alternative B</th></tr></thead>
+<tbody>
+<tr><td>Administration method</td><td>Oral <em>(clinically implausible combo)</em></td><td>Injection</td></tr>
+<tr><td>Medication frequency</td><td>Every 6 months</td><td>Monthly</td></tr>
+<tr><td>Out-of-pocket cost</td><td>$30</td><td>$0</td></tr>
+</tbody></table>
+<label class="choice"><input type="radio" name="q9" value="A"/> Alternative A</label>
+<label class="choice"><input type="radio" name="q9" value="B"/> Alternative B</label>
+</div>
+<div class="q" id="q10">
+<h2>Question 10 of 10</h2>
+<p>If these were the only two PrEP options, which would you prefer?</p>
+<table>
+<thead><tr><th>Attribute</th><th>Alternative A</th><th>Alternative B</th></tr></thead>
+<tbody>
+<tr><td>Administration method</td><td>Oral</td><td>Injection</td></tr>
+<tr><td>Medication frequency</td><td>Daily</td><td>Monthly</td></tr>
+<tr><td>Out-of-pocket cost</td><td>$0</td><td>$30</td></tr>
+</tbody></table>
+<label class="choice"><input type="radio" name="q10" value="A"/> Alternative A</label>
+<label class="choice"><input type="radio" name="q10" value="B"/> Alternative B</label>
+</div>
+<p class="note">End of mathematical demo. Seed 
+20251112
+. Generated with idefix Modfed (zero-prior D-efficiency). No data are submitted.</p>
+</body></html>
